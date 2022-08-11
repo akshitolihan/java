@@ -24,12 +24,6 @@ public class Employee {
     };
 
     public static void main(String[] args) {
-int j = 0;
-
-      int numbers[] =  int() (Integer.parseInt(empDetail[j][5])) ;
-
-       System.out.print(numbers + "\t");
-
         Scanner obj = new Scanner(System.in);
         int id = obj.nextInt();
 
