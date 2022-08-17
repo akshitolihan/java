@@ -81,7 +81,7 @@ public class Employee {
                 'k');
         System.out.println("Enter the employee ID ");
         empId = bufferedReader.readLine();
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < employees.length; i++) {
             if (employees[i].empId.equals(empId)) {
                 c = 1;
                 int salary = salary(employees[i].basic, employees[i].hra, da(employees[i].designationCode),
